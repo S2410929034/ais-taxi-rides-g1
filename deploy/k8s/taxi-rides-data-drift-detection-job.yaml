@@ -19,6 +19,6 @@ spec:
       volumes:
       - name: local-folder
         hostPath:
-          path: /host_mnt/Users/peter.rietzler/Documents/private/dev2il/github/ais-dev2il-mlops-taxi-rides/work
+          path: /mnt/c/Users/jonas/source/devops/ais-taxi-rides-g1/work
           type: Directory
       restartPolicy: OnFailure
