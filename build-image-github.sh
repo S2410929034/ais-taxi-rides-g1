@@ -3,7 +3,7 @@
 # Check if the required parameters are provided
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <username> <version>"
-    echo "Example: $0 peterrietzler 1.0.0"
+    echo "Example: $0 S2410929034 1.0.4"
     exit 1
 fi
 
